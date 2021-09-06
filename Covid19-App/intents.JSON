@@ -1,0 +1,64 @@
+{"intents": [
+{"tag": "greeting",
+    "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+    "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+    "context": [""]
+},
+{"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+    "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+    "context": [""]
+},
+{"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"],
+    "context": [""]
+},
+{"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+    "context": [""]
+},
+{"tag": "options",
+    "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+    "responses": ["I can guide you through the Covid 19, give you some tips, and some advice", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+    "context": [""]
+},
+{"tag": "how to stay safe",
+    "patterns": ["How do i stay safe from th covid 19", "how do i stay safe", "what can i do to keep my self safe from the virus"],
+    "responses": ["Stay at home and if you were to go outside PRACTICE SOCIAL DISTANCING","always stay at home"],
+    "context": [""]
+},
+{"tag": " what is the covid 19",
+    "patterns": ["what is the covid 19", "how did the covid 19 began", "covid 19", "coronavirus"],
+    "responses": ["Covid 19 is a virus that can harm people in multiple ways. It began in china and it got spreaded to the entire world"],
+    "context": [""]
+},
+{"tag": "When will the covid 19 end",
+    "patterns": ["when will covid 19 end ", "when will it end", "when do you think it will end"],
+    "responses": ["I am not a seer, I am a robot", "I am not an expert at this field, therfore i can't answer this question"],
+    "context": [""]
+},
+{"tag": "what if i get covid 19",
+    "patterns": ["what if i get covid 19","what happens if i get covid 19","what if someone in my family has it"],
+    "responses": ["no need to worry, the entire covid 19 cases are like 20 million, compare that to the population of the united states, 20million over 300 million"],
+    "context": [""]
+},
+{"tag": "what are some tips for the virus",
+    "patterns": ["what are some tips", "give me some tips for the virus" ],
+    "responses": ["Some tips are that you stay safe from the virus by staying home","always stay at home","if you were to go to work, come back and then take a bath for extra security"],
+    "context": [""]
+},
+
+{"tag": "i have covid-19, what should i do",
+    "patterns": ["i have covid-19", "what if i get covid 19", "what should i do, i have covid-19"],
+    "responses": ["Seek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility."],
+    "context": [""]
+},
+{"tag": "symptoms or signs of covid 19",
+    "patterns": ["what are the symptoms of covid 19","what are some symptoms of covid 19","what are some signs of covid 19","signs of covid 19"],
+    "responses": ["Common symptoms are: Fever, dry cough,tiredness. On average it takes 5 to 6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days"],
+    "context": [""]
+}
+]
+}

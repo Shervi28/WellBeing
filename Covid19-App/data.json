@@ -1,0 +1,70 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Hi", "Hi Bot"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I am the DocBot, I am your digital doctor! I can help you just like a doctor! Ask me questions about health and i can help you! "],
+     "context": [""]
+    },
+    {"tag": "how to stay healthy",
+     "patterns": ["How do i be healthy?", "how do I stay healthy?", "what can i do to remain healthy"],
+     "responses": ["Research shows a healthy positive attitude helps build a healthier immune system and boosts overall health. Your body believes what you think, so focus on the positive.","Shoot for five servings of vegetables a day — raw, steamed, or stir-fried. A diet high in vegetables is associated with a reduced risk of developing cancers of the lung, colon, breast, cervix, esophagus, stomach, bladder, pancreas, and ovaries. And many of the most powerful phytonutrients are the ones with the boldest colors — such as broccoli, cabbage, carrots, tomatoes, grapes, and leafy greens.","Did you know that daily exercise can reduce all of the biomarkers of aging? This includes improving eyesight, normalizing blood pressure, improving lean muscle, lowering cholesterol, and improving bone density. If you want to live well and live longer, you must exercise! Studies show that even ten minutes of exercise makes a difference — so do something! Crank the stereo and dance in your living room. Sign up for swing dancing or ballroom dancing lessons. Walk to the park with your kids or a neighbor you’d like to catch up with. Jump rope or play hopscotch. Spin a hula hoop. Play water volleyball. Bike to work. Jump on a trampoline. Go for a hike.","If you have trouble sleeping, try relaxation techniques such as meditation and yoga. Or eat a small bedtime snack of foods shown to help shift the body and mind into sleep mode: whole grain cereal with milk, oatmeal, cherries, or chamomile tea. Darken your room more and turn your clock away from you. Write down worries or stressful thoughts to get them out of your head and onto the page. This will help you put them into perspective so you can quit worrying about them."],
+     "context": [""]
+    },
+    {"tag": "what do i need to eat",
+     "patterns": ["what do i need to eat", "what do i need to eat to become healthy", "what should i eat", "best food to eat"],
+     "responses": ["1. SPINACH This nutrient-dense green superfood is readily available - fresh, frozen or even canned. One of the healthiest foods on the planet, spinach is packed with energy while low in calories, and provides Vitamin A, Vitamin K, and essential folate.EASY EATING TIP: Sauté with onion and add to an omelet for an easy, healthy meal.2. BLACK BEANSFilled with super healthy antioxidants, black beans digest slowly - keeping you feeling full for longer. These little beauties are full of calcium, protein and fiber, and they also taste great!EASY EATING TIP: Think Mexican food! Burritos, nachos, tacos… whatever tickles your fancy.3. WALNUTSWith more antioxidants than any other nut, walnuts are also brimming with Vitamin E, and rich in plant serums, omega 3 oils, and healthy fats.EASY EATING TIP: Keep a supply in your bag for an easy, healthy snack on-the-go"],
+     "context": [""]
+    },
+    {"tag": "medical information",
+     "patterns": ["Which internet resources can I trust for medical information?", "which medical resources can i trust?","internet resources"],
+     "responses": ["MedlinePlus. National Library of Medicine. ...Centers for Medicare & Medicaid Services. 800-633-4227 (toll-free) ...Centers for Disease Control and Prevention (CDC) 800-232-4636 (toll-free) ...healthfinder.gov. www.healthfinder.gov. U.S. Food and Drug Administration."],
+     "context": [""]
+    },
+    {"tag": "prevention care",
+     "patterns": ["What preventive care services are right for me?","what are the prevention care services"],
+     "responses": ["Examples of preventive health services and their frequency: Annual check-up (1 per calendar year): This is when your Primary Care Provider (PCP) checks all areas of your health—physical, as well as emotional. This can help detect any health concerns early, before they become major medical problems.Flu shot (1 per year): This is typically covered 100% under most health plans and helps protect you from certain strains of the flu virus.Mammogram (1 per calendar year, usually after the age of 40): Routine X-rays of breast tissue to check for any signs of cancer or other abnormalities. Some health plans may also cover costs for 3D imaging.Colonoscopy (typically 1 per every 10 years, usually after the age of 50): Screening for colon cancer.Vaccinations (usually administered during childhood, includes boosters as needed): Vaccinations like measles, mumps, rubella, polio, etc. are covered at 100%."],
+     "context": [""]
+    },
+    {"tag": "certain conditions",
+     "patterns": ["How does my family history affect my risk for certain conditions?", "do I get any genetic disorders because of my family history?" ],
+     "responses": ["Families have similar genetic backgrounds, and often similar environments and lifestyles. Together, these factors can give clues to conditions that may run in a family. By noticing patterns of disorders among relatives, healthcare professionals can determine whether an individual, family members, or future generations may be at an increased risk of developing a particular condition."],
+     "context": [""]
+    },
+    
+    {"tag": "personal wellness",
+     "patterns": ["What do you do for your personal wellness?", "how to have personal wellness"],
+     "responses": ["To have personal wellness, one must be spiritually, mentally, phsyically and emotionally well. Look @ https://opentextbc.ca/studentsuccess/chapter/personal-wellness/"],
+     "context": [""]
+    },
+    {"tag": "I'm bleeding ",
+        "patterns": ["I'm bleeding","How to stop blood from flowing out","stop blood","blood"],
+        "responses": ["If you're bleeding, Stop the bleeding. Place a sterile bandage or clean cloth on the wound. Press the bandage firmly with your palm to control bleeding. Apply constant pressure until the bleeding stops. Maintain pressure by binding the wound with a thick bandage or a piece of clean cloth."],
+        "context": [""]
+    },
+
+    {"tag": "",
+        "patterns": ["What Does an Allergist Treat?","Allergist","What is an Allergist","Allergist"],
+        "responses": ["Allergists can treat a wide range of conditions, including asthma, eczema and allergic rhinitis."],
+        "context": [""]
+    }
+]
+}
